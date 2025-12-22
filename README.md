@@ -2,7 +2,6 @@
 
 Java
 Testing
-Repository: https://github.com/FathiHeelo/Manual_Testing_QA_mini_project.git
 Project Overview
 This repository contains my practical implementation of a simple Bug Tracking and Issue Management System developed as a mini project for a Manual Testing and Quality Assurance course.
 The application simulates a real-world bug tracking tool where users can create, view, update, assign, and track software defects/issues. It serves as a hands-on platform to practice manual testing techniques, including test case design, exploratory testing, bug reporting, severity/priority assessment, and test documentation.
@@ -46,13 +45,7 @@ Defect trends and recommendations
 
 
 
-How to Run
-Bashgit clone https://github.com/FathiHeelo/Manual_Testing_QA_mini_project.git
-cd Manual_Testing_QA_mini_project
 
-Compile and run the main class (e.g., BugTrackerApp.java)
-Interact via console menu to create/view/update issues
-Use the system to practice manual testing workflows
 
 What I Learned
 
@@ -63,13 +56,7 @@ Importance of traceability between requirements, test cases, and defects
 How manual testing complements automated testing in real projects
 Professional documentation and communication in QA processes
 
-Possible Enhancements (Ideas)
 
-Add a simple Swing or JavaFX GUI for better usability
-Implement user authentication
-Export reports to PDF/Excel
-Add comments and attachments to issues
-Integration with automated tests (as a future step)
 
 Developed & Tested by: Fathi Heelo 🚀
 Course Context: Manual Testing in Software Quality Assurance
