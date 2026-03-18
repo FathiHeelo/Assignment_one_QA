@@ -1,63 +1,53 @@
-# Manual Testing QA Mini Project - Bug Tracking System
+# Manual Testing QA Mini Project – Bug Tracking System
 
-Java
-Testing
-Project Overview
-This repository contains my practical implementation of a simple Bug Tracking and Issue Management System developed as a mini project for a Manual Testing and Quality Assurance course.
-The application simulates a real-world bug tracking tool where users can create, view, update, assign, and track software defects/issues. It serves as a hands-on platform to practice manual testing techniques, including test case design, exploratory testing, bug reporting, severity/priority assessment, and test documentation.
-I designed the system with common features found in tools like Jira or Bugzilla, but kept it lightweight to focus on effective manual QA practices rather than automation.
-Key Features
+## 📌 Overview
+This project is a simple Bug Tracking and Issue Management System built as part of a Manual Testing & QA course.  
+It simulates a real-world tool where users can create, manage, and track software defects.
 
-Issue Creation: Add new bugs with title, description, steps to reproduce, severity, priority, assignee, and status
-Issue Management: View all issues, search/filter by status/severity/assignee, update status (New → In Progress → Resolved → Closed)
-User Roles Simulation: Basic support for Tester, Developer, and Manager perspectives
-Reporting: List issues by status, generate simple summary reports
-Data Persistence: Issues saved to a file (JSON or text) for persistence between runs
-Validation: Input checks and error handling for better testability
+The main goal is to provide a hands-on environment for practicing core manual testing skills such as test case design, bug reporting, and test documentation.
 
-Technologies Used
+---
 
-Language: Java 17+
-Framework: Console-based application (Swing GUI optional if implemented)
-Data Handling: File I/O for persistence (e.g., JSON via Gson or simple text serialization)
-Design: Object-oriented structure with clear separation (Issue, User, Tracker classes)
+## 🚀 Key Features
+- Create and manage issues (title, description, severity, priority, status)
+- Update issue status (New → In Progress → Resolved → Closed)
+- Search and filter issues
+- Simulated user roles (Tester, Developer, Manager)
+- Simple reporting by status
+- Data persistence using file storage (JSON/text)
+- Input validation and error handling
 
-Manual Testing Artifacts Included
-This project was used to practice and demonstrate core manual testing skills:
+---
 
-Test Case Design Documents (in /docs or Markdown):
-Functional test cases (positive/negative)
-Boundary value analysis
-Equivalence partitioning
-Exploratory testing notes
+## 🛠️ Technologies Used
+- Java 17+
+- Console-based application (optional GUI)
+- File I/O (JSON or text)
+- Object-Oriented Design
 
-Bug Reports:
-Detailed defect reports with steps to reproduce, actual vs expected results, screenshots (if GUI), environment details
-Severity and priority classification
+---
 
-Test Execution Evidence:
-Test logs and results
-Traceability matrix (linking requirements to test cases)
+## 🧪 Manual Testing Artifacts
+- Test cases (positive & negative)
+- Boundary value analysis & equivalence partitioning
+- Exploratory testing notes
+- Bug reports (steps, expected vs actual, severity/priority)
+- Test execution logs
+- Traceability matrix
+- Summary report (coverage & defect insights)
 
-Summary Report:
-Test coverage overview
-Defect trends and recommendations
+---
 
+## 📚 What I Learned
+- Writing clear and structured test cases
+- Reporting bugs with reproducible steps
+- Applying testing techniques (BVA, EP, state transitions)
+- Understanding traceability in QA processes
+- Improving documentation and communication in testing
 
+---
 
+## 👨‍💻 Author
+Developed & Tested by: **Fathi Heelo** 🚀  
 
-
-What I Learned
-
-Writing clear, reusable, and comprehensive manual test cases
-Effective bug reporting with reproducible steps and proper classification
-Applying testing techniques: equivalence partitioning, boundary analysis, state transition testing
-Importance of traceability between requirements, test cases, and defects
-How manual testing complements automated testing in real projects
-Professional documentation and communication in QA processes
-
-
-
-Developed & Tested by: Fathi Heelo 🚀
-Course Context: Manual Testing in Software Quality Assurance
-License: MIT - Feel free to use for learning or testing practice!
+---
